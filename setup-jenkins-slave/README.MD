@@ -4,7 +4,7 @@ Jenkins is a free and open source automation server. It is a self-contained Java
 Build >> Deploy >> Test >> Relase
 
 ### Follow this article in **[Youtube](https://youtu.be/hwrYURP4O2k)**
-![Jenkins Master and Slave Configuration](https://github.com/cloudmaxs01/DevOps-master-class-/tree/master/setup-jenkins-slave/images/Jenkins-Master-and-Slave-Configuration.png)
+![Jenkins Master and Slave Configuration](https://github.com/cloudmaxs01/DevOps-master-class-/blob/master/setup-jenkins-slave/images/Jenkins-Master-and-Slave-Configuration.png)
 
 ### Prerequisites
 1. Jenkins Master Running 
@@ -46,7 +46,7 @@ chmod 700 known_hosts
 #### Configure the Slave using `Manage Jenkins`
 Configure the node as shown here
 `Manage Jenkins` > `Manage Nodes` > `New Node`
-![Jenkins Master and Slave Configuration](https://github.com/cloudmaxs01/DevOps-master-class-/tree/master/setup-jenkins-slave/images/Slave-Node-Configuration-01.png)
+![Jenkins Master and Slave Configuration](https://github.com/cloudmaxs01/DevOps-master-class-/blob/master/setup-jenkins-slave/images/Slave-Node-Configuration-01.png)
 
 ### Test Jenkins Jobs
 1. Create “new item”

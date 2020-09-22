@@ -5,7 +5,8 @@ Jenkins is a Java-written open source server that can help you streamline your s
 Jenkins has almost one and a half thousand plugins available for downloading, which allow you to solve any kind of problem you might ever encounter during deployment, development or testing. Very often, until you face a specific issue, you might even not know that there are many useful and handy plugins, which sometimes are not extremely necessary to have but at the same time, they might really improve your productivity
 
 
-  ![Jenkins Plugins](https://github.com/cloudmaxs01/DevOps-master-class-/tree/master/setup-jenkins-plugins/images/jenkins-plugins.png)
+  ![Jenkins Plugins](https://github.com/cloudmaxs01/DevOps-master-class-/blob/master/setup-jenkins-plugins/images/jenkins-plugins.png)
+
 
 **Generic Plugins**
 -------------------
