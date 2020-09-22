@@ -1,12 +1,14 @@
 # Configure Jenkins Slaves on AWS EC2
-Jenkins is a self-contained Java-based program, ready to run out-of-the-box, with packages for Windows, Mac OS X and other Unix-like operating systems. As an extensible automation server, Jenkins can be used as a simple CI server or turned into the continuous delivery hub for any project.
+Jenkins is a free and open source automation server. It is a self-contained Java-based program, It helps automate the parts of software development related to building, testing, and deploying, facilitating continuous integration and continuous delivery
+
+Build >> Deploy >> Test >> Relase
 
 ### Follow this article in **[Youtube](https://youtu.be/hwrYURP4O2k)**
-![Jenkins Master and Slave Configuration](https://raw.githubusercontent.com/miztiik/DevOps-Demos/master/setup-jenkins-slave/images/Jenkins%20Master%20and%20Slave%20Configuration.png)
+![Jenkins Master and Slave Configuration](https://github.com/cloudmaxs01/DevOps-master-class-/tree/master/setup-jenkins-slave/images/Jenkins-Master-and-Slave-Configuration.png)
 
 ### Prerequisites
-1. Jenkins Master Running [Get help here](https://youtu.be/-0dkiteJEuE)
-1. EC2 RHEL 7.x Instance - _for Slave Node_ [Get help here](https://www.youtube.com/watch?v=KDtS6BzJo3A)
+1. Jenkins Master Running 
+1. EC2 RHEL 7.x Instance for Slave Node
    - With Internet Access
    - Security Group with Port `8080` open for internet
    - Java v1.8.x 
@@ -44,7 +46,8 @@ chmod 700 known_hosts
 #### Configure the Slave using `Manage Jenkins`
 Configure the node as shown here
 `Manage Jenkins` > `Manage Nodes` > `New Node`
-![Jenkins Master and Slave Configuration](https://raw.githubusercontent.com/miztiik/DevOps-Demos/master/setup-jenkins-slave/images/Slave-Node-Configuration-01.png)
+![Jenkins Master and Slave Configuration](https://github.com/cloudmaxs01/DevOps-master-class-/tree/master/setup-jenkins-slave/images/Slave-Node-Configuration-01.png)
+
 ### Test Jenkins Jobs
 1. Create “new item”
 1. Enter an item name – `My-First-Project`
@@ -58,7 +61,7 @@ Configure the node as shown here
    #!/bin/bash
    echo "_______________________________"
    echo "|                             |"
-   echo "|   Welcome to Valaxy Demo    |"
+   echo "|   Welcome to my Demo    |"
    echo "|           _nnnn_            |"
    echo "|          dGGGGMMb           |"
    echo "|         @p~qp~~qMb          |"
@@ -81,10 +84,10 @@ Configure the node as shown here
 1. Build job
 1. Check "console output"
 
-### Other Videos
- - [x] [Install and Configure Jenkins in AWS EC2](https://youtu.be/-0dkiteJEuE)
- - [x] [Configure Users & Groups in Jenkins](https://youtu.be/jZOqcB32dYM)
- - [x] [Secure your Jenkins Server](https://youtu.be/19FmJumnkDc)
- - [x] [Jenkins Plugin Installation](https://youtu.be/p_PqPBbjaZ4)
- - [x] [Jenkins Master-Slave Configuration](https://youtu.be/hwrYURP4O2k)
+### Other things you need to know about jenkins
+ - [x] [Install and Configure Jenkins in AWS EC2]
+ - [x] [Configure Users & Groups in Jenkins]
+ - [x] [Secure your Jenkins Server]
+ - [x] [Jenkins Plugin Installation]
+ - [x] [Jenkins Master-Slave Configuration]
 
