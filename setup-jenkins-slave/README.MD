@@ -23,6 +23,13 @@ yum install java-1.8*
 ```sh
 # Create user and add the user to wheel group
 useradd jenkins-slave-01
+passwd jenkins-slave-01
+cd /etc/ssh
+ls
+vi sshd_config
+## uncomment  PasswordAuthentication yes AND comment PasswordAuthentication no
+service sshd restart
+
 # Create SSH Keys
 sudo su - jenkins-slave-01
 ssh-keygen -t rsa -N "" -f /home/jenkins-slave-01/.ssh/id_rsa
@@ -48,6 +55,7 @@ more id_rsa
 #### Configure the Slave using `Manage Jenkins`
 Configure the node as shown here
 `Manage Jenkins` > `Manage Nodes` > `New Node`
+## the host should be your pravait Ip address and not the pubilc
 ![Jenkins Master and Slave Configuration](https://github.com/cloudmaxs01/DevOps-master-class-/blob/master/setup-jenkins-slave/images/Slave-Node-Configuration-01.png)
 
 ### Test Jenkins Jobs
